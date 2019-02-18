@@ -51,35 +51,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Caja-Corte </title>
-    <meta http-equiv="Content-Type" content="text/html; charset=euc-jp"> 
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+    <title>Caja-Corte</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="librerias/bootstrap/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link href="css/sb-admin.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="imagenes/gam.ico">
 </head>
 <body>    
     <div class="col-md-12" class="center-block">
-        <div class="modal-dialog" style="margin-bottom:0" class="center-block">
-            <br>
+        <br>
+        <div class="modal-dialog" class="center-block">
+            <center><img class="img-responsive" src="imagenes/imagen.jpg"></center>
+            <br><br>
             <div class="modal-content" class="center-block">
                 <div class="panel-heading" class="center-block">
-                    <h3 class="panel-title">Bienvenido  'Ingrese sus Datos'</h3>
+                    <h3 class="panel-title text-center">Bienvenido  'Ingrese sus Datos'</h3>
                 </div>
                 <div class="panel-body">
                     <form method="POST" action="<?php echo $_SERVER['PHP_SELF'];?>" role="class-form">
                         <fieldset>
                             <div class="form-group">
+                                <label>Usuario</label>
                                 <input class="form-control" placeholder="Usuario" name="nombre" type="text" autofocus="">
                             </div>
                             <div class="form-group">
+                                <label>Contraseña</label>
                                 <input class="form-control" placeholder="Contraseña" name="contrasena" type="password">
                             </div>
-                            <input type="submit" class="btn btn-primary" name="iniciar_sesion" value="INGRESAR">
+                            <center><button type="submit" class="btn btn-primary" name="iniciar_sesion">INGRESAR</button></center>
+                            <br>
+                            <p class="text-center"><a href="#">Olvidaste tu contraseña</a> </p>
                         </fieldset>
                     </form>
                 </div>
             </div>
         </div>
     </div>
+    <footer class="footer">
+        <div class="container text-center">
+            <span>Software GAM <sup>©</sup> Todos los Derechos Reservados.</span>
+        </div>
+    </footer>
     <script src="librerias/jquery-3.3.1.min.js"></script>
     <script src="librerias/bootstrap/js/bootstrap.min.js"></script>
     <script>

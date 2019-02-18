@@ -15,10 +15,15 @@
             <div class="modal-footer">
                 <button type="submit" class="btn btn-warning">Actualizar Contraseña</button>
             </div>
-            </form>
+                </form>
         </div>
     </div>
 </div>
+<footer class="footer">
+    <div class="container text-center">
+        <span>Software GAM <sup>©</sup> Todos los Derechos Reservados.</span>
+    </div>
+</footer>
 <script src="../librerias/jquery-3.3.1.min.js"></script>
 <script src="../librerias/bootstrap/js/bootstrap.min.js"></script>
 <script src="../librerias/alertify/alertify.js"></script>

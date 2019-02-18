@@ -1,13 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-	<title>Bienvenido Agente</title> 
+	<title>Caja-Corte</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link href="../librerias/bootstrap/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 	<link href="../librerias/alertifyjs/css/themes/default.css" rel="stylesheet" id="alertifyjs-css-themes">
 	<link href="../librerias/alertify/css/alertify.css" rel="stylesheet" id="alertify-css">
 	<link href="../librerias/alertifyjs/css/alertify.css" rel="stylesheet" id="alertifyjs-css">
 	<link href="../librerias/select2/css/select2.css" rel="stylesheet" id="select2-css">
+    <link href="../librerias/datatables/dataTables.bootstrap.css" rel="stylesheet">
+    <link href="../css/sb-admin.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="../imagenes/gam.ico">
 </head>
 <body>
 <nav class="navbar navbar-inverse">

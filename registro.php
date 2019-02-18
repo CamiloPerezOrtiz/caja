@@ -39,7 +39,7 @@
             else
                 echo '<script> 
                         alert("Usuario registrado con exito.");
-                        location.href ="gerente.php";
+                        location.href ="index.php";
                      </script> 
                      ';
         }
@@ -61,19 +61,7 @@
     <link href="librerias/bootstrap/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 </head>
 <body> 
-    <!--Barra de navegacion -->
-    <nav class="navbar navbar-default" role="navigation">
-        <div class="container-fluid">
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-left">
-                    <li>
-                        <a><span class="label label-primary">  Bienvenido Gerente</span></a>
-                    </li>
-                </ul>
-            </div><!-- /.navbar-collapse -->
-        </div><!-- /.container-fluid -->
-    </nav>
+    <br><br>
     <div class="container">
         <div class="row">
             <div class="col-md-2">
